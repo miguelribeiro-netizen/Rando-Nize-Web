@@ -56,7 +56,7 @@ body {
 .wordmark {
   color: var(--dark-red);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(3rem, 5vw, 5.25rem);
+  font-size: clamp(3.15rem, 5.2vw, 5.5rem);
   line-height: 1;
   letter-spacing: 3px;
   font-weight: 900;
@@ -85,7 +85,7 @@ body {
   border-right: 2px solid rgba(75, 14, 24, .55);
   text-decoration: none;
   text-transform: uppercase;
-  font: 900 1.8rem/1 Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font: 900 1.9rem/1 Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   transition: background .18s ease, color .18s ease;
 }
 .main-nav a:hover, .main-nav a:focus-visible {
@@ -110,7 +110,7 @@ body {
 }
 .section-panel {
   position: relative;
-  width: min(86.5vw, 1357px);
+  width: min(90vw, 1450px);
   aspect-ratio: 2.06;
   max-height: 100%;
   background: var(--deep-red);
