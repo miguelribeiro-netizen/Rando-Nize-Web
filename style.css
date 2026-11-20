@@ -6,7 +6,7 @@
   --panel-red: #852332;
   --pink: #e94b65;
   --gold: rgba(255, 224, 125, .88);
-  --header-height: 143px;
+  --header-height: 177px;
   --section-height: calc(100svh - var(--header-height) - 52px);
 }
 * { box-sizing: border-box; }
@@ -30,7 +30,7 @@ body {
   background: var(--bright-red);
 }
 .masthead {
-  height: 97px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ body {
 .wordmark {
   color: var(--dark-red);
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-size: clamp(2.4rem, 5vw, 4.25rem);
+  font-size: clamp(3rem, 5vw, 5.25rem);
   line-height: 1;
   letter-spacing: 3px;
   font-weight: 900;
@@ -69,7 +69,7 @@ body {
   text-shadow: 0 0 4px rgba(255, 229, 138, .95), 0 0 13px rgba(255, 220, 110, .68);
 }
 .main-nav {
-  height: 46px;
+  height: 57px;
   display: flex;
   align-items: stretch;
   background: var(--deep-red);
@@ -85,7 +85,7 @@ body {
   border-right: 2px solid rgba(75, 14, 24, .55);
   text-decoration: none;
   text-transform: uppercase;
-  font: 900 1.55rem/1 Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font: 900 1.8rem/1 Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   transition: background .18s ease, color .18s ease;
 }
 .main-nav a:hover, .main-nav a:focus-visible {
@@ -110,7 +110,7 @@ body {
 }
 .section-panel {
   position: relative;
-  width: min(86.5%, 1180px);
+  width: min(86.5vw, 1357px);
   aspect-ratio: 2.06;
   max-height: 100%;
   background: var(--deep-red);
